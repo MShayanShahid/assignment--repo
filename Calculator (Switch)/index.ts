@@ -1,6 +1,6 @@
 function Calc(num1:number,num2:number)
 {   
-    let choice:number=2;   //Can be Any
+    let choice:number=2;   //Can be Any from(1-4)
     console.log("Select Operator \n +(Add) by Pressing 1 \n -(Minus) by Pressing 2 \n x(Mult) by Pressing 3\n /(Divide) by Pressing 4\n");
     switch(choice)
     {
