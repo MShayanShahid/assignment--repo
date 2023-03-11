@@ -1,3 +1,4 @@
+You can take Any Array for example
 let Fruits:string[] =["apple", "banana", "cherry", "date", "elderberry"];
 Fruits.push("mango");
 console.log(Fruits);
