@@ -1,3 +1,4 @@
+Will Work in Brower Console
 function Input(pp, dp) {
     var discount = pp * (dp / 100);
     if (dp >= 50) {
@@ -10,8 +11,8 @@ function Input(pp, dp) {
     
 }
 function Output() {
-    var productprice =parseFloat(window.prompt("Enter ProductPrice:\t"));
-    var discountpercentage =parseFloat(window.prompt("Enter DiscountPercentage:\t"));
+    var productprice =parseFloat(window.prompt("Enter ProductPrice:\t"));                           //ToConvert String Into Float 
+    var discountpercentage =parseFloat(window.prompt("Enter DiscountPercentage:\t"));               //ToConvert String Into Float 
     console.log("Product Price:\t" + productprice);
     console.log("Discount Percentage:\t" + discountpercentage + "%");
     Input(productprice, discountpercentage);
