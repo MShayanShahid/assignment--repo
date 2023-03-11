@@ -1,3 +1,4 @@
+You can Take Any Array For Example
 var Fruits = ["apple", "banana", "cherry", "date", "elderberry"];
 Fruits.push("mango");
 console.log(Fruits);
