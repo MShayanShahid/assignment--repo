@@ -1,0 +1,19 @@
+function Input(pp, dp) {
+    var discount = pp * (dp / 100);
+    if (dp >= 50) {
+        console.log("Discount percentage is invalid.");
+    }
+    else {
+        console.log("Discount percentage is valid.");
+        console.log("Discount Price:\t" + discount);
+    }
+    
+}
+function Output() {
+    var productprice =parseFloat(window.prompt("Enter ProductPrice:\t"));
+    var discountpercentage =parseFloat(window.prompt("Enter DiscountPercentage:\t"));
+    console.log("Product Price:\t" + productprice);
+    console.log("Discount Percentage:\t" + discountpercentage + "%");
+    Input(productprice, discountpercentage);
+}
+Output();
