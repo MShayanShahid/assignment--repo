@@ -1,5 +1,6 @@
-var EnglishMarks =parseFloat(window.prompt("Enter EnglishMarks:\t"));
-var UrduMarks =parseFloat(window.prompt("Enter UrduMarks:\t"));
+Will Work in Browser Console
+var EnglishMarks =parseFloat(window.prompt("Enter EnglishMarks:\t"));            //ParseFloat to convert string into float values     
+var UrduMarks =parseFloat(window.prompt("Enter UrduMarks:\t"));                  //ParseFloat to convert string into float values  
 var AVG = (EnglishMarks + UrduMarks) / 2;
 console.log("English Marks:\t" + EnglishMarks);
 console.log("Urdu Marks:\t" + UrduMarks);
