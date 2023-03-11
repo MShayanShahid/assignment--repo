@@ -1,0 +1,22 @@
+function Calc(num1, num2) {
+var choice =window.prompt("Select Operator \n +(Add) \n -(Minus)  \n x(Mult)  \n /(Divide) \n:\t");
+    switch (choice) {
+        case "+":
+            alert("Answer:\t" + (num1 + num2));
+            break;
+        case "-":
+            alert("Answer:\t" + (num1 - num2));
+            break;
+        case "x":
+            alert("Answer:\t" + (num1 * num2));
+            break;
+        case "/":
+            alert("Answer:\t" + (num1 / num2));
+            break;
+        default:
+            alert("Wrong Input");
+    }
+}                                                                           
+num1=parseFloat(window.prompt("Enter Number:\t"));                        
+num2=parseFloat(window.prompt("Enter Second Number:\t"));                  
+Calc(num1,num2);
